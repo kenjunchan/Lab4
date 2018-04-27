@@ -2,6 +2,10 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -55,4 +59,68 @@
          </children>
       </GridPane>
    </top>
+   <center>
+      <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" style="-fx-background-color: green; -fx-border-color: green;" styleClass="background" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="217.0" prefWidth="483.0" style="-fx-background-color: green;" styleClass="background">
+               <children>
+                  <ImageView layoutX="14.0" layoutY="68.0">
+                     <image>
+                        <Image url="@../../../img/8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView layoutX="294.0" layoutY="68.0">
+                     <image>
+                        <Image url="@../../../img/8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView layoutX="194.0" layoutY="68.0">
+                     <image>
+                        <Image url="@../../../img/8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView layoutX="104.0" layoutY="68.0">
+                     <image>
+                        <Image url="@../../../img/8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView layoutX="386.0" layoutY="68.0">
+                     <image>
+                        <Image url="@../../../img/8.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="210.0" prefWidth="483.0" style="-fx-background-color: green;">
+               <children>
+                  <ImageView layoutX="106.0" layoutY="79.0">
+                     <image>
+                        <Image url="@../../../img/8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView layoutX="194.0" layoutY="79.0">
+                     <image>
+                        <Image url="@../../../img/8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView layoutX="287.0" layoutY="79.0">
+                     <image>
+                        <Image url="@../../../img/8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView layoutX="386.0" layoutY="79.0">
+                     <image>
+                        <Image url="@../../../img/8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView layoutX="15.0" layoutY="79.0">
+                     <image>
+                        <Image url="@../../../img/8.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </center>
 </BorderPane>

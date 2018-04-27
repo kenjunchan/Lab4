@@ -63,7 +63,4 @@ public class HandBlackJack extends Hand {
 	protected HandScoreBlackJack getHS() {
 		return (HandScoreBlackJack)super.getHS();
 	}
-	
-	
-
 }

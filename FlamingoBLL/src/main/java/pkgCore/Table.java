@@ -51,7 +51,6 @@ public class Table implements Serializable {
 
 	public void ClearTable() {
 		hmTablePlayers.clear();
-		
 	}
 
 	public ArrayList<Player> GetTablePlayers() {

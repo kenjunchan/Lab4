@@ -17,10 +17,7 @@ public class GamePlayBlackJack extends GamePlay {
 		{
 			t.CreateDeck(pkgEnum.eGameType.BLACKJACK);
 		}
-				
-		
-		
-		
+
 		for (Player pAdd: t.GetTablePlayers())
 		{
 			hmGameHands.put(pAdd.getPlayerID(), new HandBlackJack());
